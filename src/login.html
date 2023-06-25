@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登陆</title>
+    <link href="/dist/normalize.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="font-wr">
+    <!-- header -->
+    <header>
+        <div class="w-full h-[12vw] bg-[#0097ff] text-[#fff] text-[4.8vw] fixed left-0 top-0 z-[1000] flex items-center justify-center">
+            <p>用户登陆</p>
+        </div>
+    </header>
+    <!-- logn-form -->
+    <ul class="w-full mt-[12vw]">
+		<li class="box-border pt-[4vw] px-[3vw] flex items-center">
+			<div class="flex-[0_0_18vw] font-bold text-[3vw] text-[#666]">手机号码：</div>
+			<input type="text" placeholder="手机号码" class="border-none outline-none w-full h-[4vw] text-[3vw]">
+		</li>
+		<li class="box-border pt-[4vw] px-[3vw] flex items-center">
+			<div class="flex-[0_0_18vw] font-bold text-[3vw] text-[#666]">密码：</div>
+			<input type="password" placeholder="密码" class="border-none outline-none w-full h-[4vw] text-[3vw]">
+		</li>
+	</ul>
+    <!-- login-button -->
+    <div class="w-full box-border pt-[4vw] px-[3vw]">
+        <button class="w-full h-[10vw] border-none outline-none rounded-[4px] bg-[#38CA73] text-[#fff] font-bold text-[3.8vw]" onclick="location.href='login.html'">登陆</button>
+    </div>
+    <!-- register-button -->
+    <div class="w-full box-border pt-[4vw] px-[3vw]">
+        <button class="w-full h-[10vw] border-none border-[#ddd] outline-none rounded-[4px] bg-[#eee] text-[#666] font-bold text-[3.8vw] " onclick="location.href='register.html'">去注册</button>
+    </div>
+    <!-- footer -->
+    <footer class="h-[14vw] fixed left-0 bottom-0 w-full border-t border-[#ddd] bg-white">
+        <ul class="flex w-full justify-around text-[#999999] text-[2.8vw] items-center text-center h-full">
+            <li onclick="location.href='index.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsOtherHouses.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>首页</p>
+            </li>
+            <li class="align-middle h-2/3">
+                <img src="../img/IonMdCompass.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>发现</p>
+            </li>
+            <li onclick="location.href='orderList.html'" class="align-middle h-2/3">
+                <img src="../img/BasilDocumentSolid.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>订单</p>
+            </li>
+            <li onclick="location.href='login.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsPerson.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>我的</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

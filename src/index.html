@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link href="/dist/normalize.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="font-wr">
+    <!-- header -->
+    <header>
+        <div  class="bg-[#0097ff] h-[12vw] flex items-center">
+            <img src="../img/IcBaselineLocationOn.svg" class="h-[60%] invert ">
+            <p class="text-white text-[4.5vw] font-bold">沈阳市规划大厦</p>
+            <img src="../img/IonMdArrowDropdown.svg" class="invert h-[60%]">
+        </div>
+    </header>
+    <!-- search -->
+    <div class="bg-[#0097ff] h-[13vw] flex items-center justify-center sticky top-0 left-0">
+        <div class="w-[90%] h-[9vw] bg-white rounded-sm flex justify-center items-center text-[3.5vw] text-[#aeaeae] font-songti select-none">
+        <img src="../img/MaterialSymbolsSearch.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-[50%]">
+        搜索饿了么商家、商品名称</div>
+    </div>
+    <!-- food type -->
+    <div>
+        <ul class="w-full h-[48vw] flex flex-wrap justify-around content-center">
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl01.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">美食</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl02.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">早餐</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl03.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">跑腿代购</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl04.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">汉堡披萨</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl05.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">甜品饮品</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl06.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">速食简餐</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl07.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">地方小吃</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl08.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">米粉面馆</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl09.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">包子粥铺</p>
+            </li>
+            <li onclick="location.href='businessList.html'" class="w-[18vw] h-[20vw] flex flex-col justify-center items-center select-none cursor-pointer">
+                <img src="../img/dcfl10.png" class="h-[10.3vw] w-[12vw]">
+                <p class="text-[3.2vw] text-[#666]">炸鸡炸串</p>
+            </li>
+        </ul>
+    </div>
+    <!-- banner -->
+    <div class="bg-indexbanner bg-no-repeat bg-cover w-[95%] h-[29vw] my-0 mx-auto px-[6vw] py-[2vw]">
+        <h3 class="text-[4.2vw] mb-[1.2vw] font-bold">品质套餐</h3>
+        <p class="text-[3.4vw] mb-[2.4vw] text-[#666]">搭配齐全吃得好</p>
+        <a class="text-[#C79060] text-[3vw] font-bold">立即抢购 ></a>
+    </div>
+    <!-- supermember -->
+    <div class="bg-[#FEEDC1] w-[95%] h-[11.5vw] my-0 mx-auto mt-[1.3vw] text-[#644F1B] flex justify-between items-center">
+        <div class="flex items-center ml-[4vw] select-none">
+            <img src="../img/super_member.png" class="w-[6vw] h-[6vw] mr-[2vw]">
+            <h3 class="text-[4vw] mr-[2vw] font-bold">超级会员</h3>
+            <p class="text-[3vw]">• 每月享超值权益</p>
+        </div>
+        <div class="text-[3vw] mr-[4vw] cursor-pointer">立即开通 ></div>
+    </div>
+    <!-- suggestion-title -->
+    <div class="w-full h-[14vw] flex justify-center items-center">
+        <div class="bg-[#888] w-[6vw] h-[0.2vw]"></div>
+        <p class="text-[4vw] my-0 mx-[4vw]">推荐商家</p>
+        <div class="bg-[#888] w-[6vw] h-[0.2vw]"></div>
+    </div>
+    <!-- suggestion-filter -->
+    <div>
+        <ul class="w-full h-[5vw] mb-[5vw] flex justify-around items-center text-[3.5vw] text-[#555]">
+            <li class="flex items-center h-full">
+                <div class="mr-[-1vw]">综合排序</div>
+                <img src="../img/IonMdArrowDropdown.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-full">
+            </li>
+            <li>距离最近</li>
+            <li>销量最高</li>
+            <li class="flex items-center h-full">
+                筛选
+                <img src="../img/MdiFilter.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-3/4">
+            </li>
+        </ul>
+    </div>
+    <!-- suggestion-shops -->
+    <div class="mb-[14vw]">
+        <ul class="w-full">
+            <li class="w-full box-border p-[2.5vw] select-none border-b border-[#ddd] flex">
+                <img src="../img/sj01.png" class="w-[18vw] h-[18vw]">
+                <div class="w-full box-border pl-[3vw]">
+                    <div class="flex justify-between items-center mb-[2vw]">
+                        <h3 class="text-[4vw] text-[#333] font-bold">万家饺子（软件园E18店）</h3>
+                        <img src="../img/PhDotsThreeOutlineVerticalFill.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[3.1vw]">
+                    </div>
+                    <div class="flex justify-between items-center mb-[1vw] text-[3.1vw]">
+                        <div class="items-center h-full flex">
+                            <div class="flex h-[2.7vw] mb-[0.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="">
+                            </div>
+                            <p class="text-[#666] ml-[1vw]">4.9 月售345单</p>
+                        </div>
+                        <div class="bg-[#0097FF] text-[#fff] text-[2.4vw] rounded-sm px-[0.1vw]">
+                            蜂鸟专送
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[2vw] text-[#666] text-[3.1vw]">
+                        <p>&#165;15起送 | &#165;3配送</p>
+                        <p>3.22km | 30分钟</p>
+                    </div>
+                    <div class="mb-[3vw] flex items-center">
+                        <p class="rounded-[3px] border border-[#ddd] text-[#666] text-[2.8vw] px-[0.1vw]">各种饺子</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">新</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">饿了么新用户首单立减9元</p>
+                        </div>
+                        <div class="flex items-center text-[2.5vw] text-[#999]">
+                            <p class="mr-[2vw]">2个活动</p>
+                            <img src="../img/IonMdArrowDropdown.svg" class="brightness-0 saturate-100 invert-[.63] sepia-[.38] saturate-0 hue-rotate-[159deg] brightness-[.93] contrast-[.75] h-[2.5vw]">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#F1884F] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">特</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">特价商品5元起</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="w-full box-border p-[2.5vw] select-none border-b border-[#ddd] flex">
+                <img src="../img/sj02.png" class="w-[18vw] h-[18vw]">
+                <div class="w-full box-border pl-[3vw]">
+                    <div class="flex justify-between items-center mb-[2vw]">
+                        <h3 class="text-[4vw] text-[#333] font-bold">小锅饭豆腐馆（全运店）</h3>
+                        <img src="../img/PhDotsThreeOutlineVerticalFill.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[3.1vw]">
+                    </div>
+                    <div class="flex justify-between items-center mb-[1vw] text-[3.1vw]">
+                        <div class="items-center h-full flex">
+                            <div class="flex h-[2.7vw] mb-[0.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="">
+                            </div>
+                            <p class="text-[#666] ml-[1vw]">4.9 月售345单</p>
+                        </div>
+                        <div class="bg-[#0097FF] text-[#fff] text-[2.4vw] rounded-sm px-[0.1vw]">
+                            蜂鸟专送
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[2vw] text-[#666] text-[3.1vw]">
+                        <p>&#165;15起送 | &#165;3配送</p>
+                        <p>3.22km | 30分钟</p>
+                    </div>
+                    <div class="mb-[3vw] flex items-center">
+                        <p class="rounded-[3px] border border-[#ddd] text-[#666] text-[2.8vw] px-[0.1vw]">各种饺子</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">新</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">饿了么新用户首单立减9元</p>
+                        </div>
+                        <div class="flex items-center text-[2.5vw] text-[#999]">
+                            <p class="mr-[2vw]">2个活动</p>
+                            <img src="../img/IonMdArrowDropdown.svg" class="brightness-0 saturate-100 invert-[.63] sepia-[.38] saturate-0 hue-rotate-[159deg] brightness-[.93] contrast-[.75] h-[2.5vw]">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">特</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">特价商品5元起</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="w-full box-border p-[2.5vw] select-none border-b border-[#ddd] flex">
+                <img src="../img/sj03.png" class="w-[18vw] h-[18vw]">
+                <div class="w-full box-border pl-[3vw]">
+                    <div class="flex justify-between items-center mb-[2vw]">
+                        <h3 class="text-[4vw] text-[#333] font-bold">麦当劳麦乐送（全运路店）</h3>
+                        <img src="../img/PhDotsThreeOutlineVerticalFill.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[3.1vw]">
+                    </div>
+                    <div class="flex justify-between items-center mb-[1vw] text-[3.1vw]">
+                        <div class="items-center h-full flex">
+                            <div class="flex h-[2.7vw] mb-[0.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="">
+                            </div>
+                            <p class="text-[#666] ml-[1vw]">4.9 月售345单</p>
+                        </div>
+                        <div class="bg-[#0097FF] text-[#fff] text-[2.4vw] rounded-sm px-[0.1vw]">
+                            蜂鸟专送
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[2vw] text-[#666] text-[3.1vw]">
+                        <p>&#165;15起送 | &#165;3配送</p>
+                        <p>3.22km | 30分钟</p>
+                    </div>
+                    <div class="mb-[3vw] flex items-center">
+                        <p class="rounded-[3px] border border-[#ddd] text-[#666] text-[2.8vw] px-[0.1vw]">各种饺子</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">新</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">饿了么新用户首单立减9元</p>
+                        </div>
+                        <div class="flex items-center text-[2.5vw] text-[#999]">
+                            <p class="mr-[2vw]">2个活动</p>
+                            <img src="../img/IonMdArrowDropdown.svg" class="brightness-0 saturate-100 invert-[.63] sepia-[.38] saturate-0 hue-rotate-[159deg] brightness-[.93] contrast-[.75] h-[2.5vw]">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">特</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">特价商品5元起</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="w-full box-border p-[2.5vw] select-none border-b border-[#ddd] flex">
+                <img src="../img/sj04.png" class="w-[18vw] h-[18vw]">
+                <div class="w-full box-border pl-[3vw]">
+                    <div class="flex justify-between items-center mb-[2vw]">
+                        <h3 class="text-[4vw] text-[#333] font-bold">米村拌饭（浑南店）</h3>
+                        <img src="../img/PhDotsThreeOutlineVerticalFill.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[3.1vw]">
+                    </div>
+                    <div class="flex justify-between items-center mb-[1vw] text-[3.1vw]">
+                        <div class="items-center h-full flex">
+                            <div class="flex h-[2.7vw] mb-[0.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="">
+                            </div>
+                            <p class="text-[#666] ml-[1vw]">4.9 月售345单</p>
+                        </div>
+                        <div class="bg-[#0097FF] text-[#fff] text-[2.4vw] rounded-sm px-[0.1vw]">
+                            蜂鸟专送
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[2vw] text-[#666] text-[3.1vw]">
+                        <p>&#165;15起送 | &#165;3配送</p>
+                        <p>3.22km | 30分钟</p>
+                    </div>
+                    <div class="mb-[3vw] flex items-center">
+                        <p class="rounded-[3px] border border-[#ddd] text-[#666] text-[2.8vw] px-[0.1vw]">各种饺子</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">新</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">饿了么新用户首单立减9元</p>
+                        </div>
+                        <div class="flex items-center text-[2.5vw] text-[#999]">
+                            <p class="mr-[2vw]">2个活动</p>
+                            <img src="../img/IonMdArrowDropdown.svg" class="brightness-0 saturate-100 invert-[.63] sepia-[.38] saturate-0 hue-rotate-[159deg] brightness-[.93] contrast-[.75] h-[2.5vw]">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">特</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">特价商品5元起</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="w-full box-border p-[2.5vw] select-none border-b border-[#ddd] flex">
+                <img src="../img/sj05.png" class="w-[18vw] h-[18vw]">
+                <div class="w-full box-border pl-[3vw]">
+                    <div class="flex justify-between items-center mb-[2vw]">
+                        <h3 class="text-[4vw] text-[#333] font-bold">申记串道（中海康城店）</h3>
+                        <img src="../img/PhDotsThreeOutlineVerticalFill.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[3.1vw]">
+                    </div>
+                    <div class="flex justify-between items-center mb-[1vw] text-[3.1vw]">
+                        <div class="items-center h-full flex">
+                            <div class="flex h-[2.7vw] mb-[0.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                                <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="mr-[1.5vw]">
+                               <img src="../img/star.png" class="">
+                            </div>
+                            <p class="text-[#666] ml-[1vw]">4.9 月售345单</p>
+                        </div>
+                        <div class="bg-[#0097FF] text-[#fff] text-[2.4vw] rounded-sm px-[0.1vw]">
+                            蜂鸟专送
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[2vw] text-[#666] text-[3.1vw]">
+                        <p>&#165;15起送 | &#165;3配送</p>
+                        <p>3.22km | 30分钟</p>
+                    </div>
+                    <div class="mb-[3vw] flex items-center">
+                        <p class="rounded-[3px] border border-[#ddd] text-[#666] text-[2.8vw] px-[0.1vw]">各种饺子</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">新</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">饿了么新用户首单立减9元</p>
+                        </div>
+                        <div class="flex items-center text-[2.5vw] text-[#999]">
+                            <p class="mr-[2vw]">2个活动</p>
+                            <img src="../img/IonMdArrowDropdown.svg" class="brightness-0 saturate-100 invert-[.63] sepia-[.38] saturate-0 hue-rotate-[159deg] brightness-[.93] contrast-[.75] h-[2.5vw]">
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center mb-[1.8vw]">
+                        <div class="flex items-center">
+                            <div class="w-[4vw] h-[4vw] bg-[#70bc46] rounded-[3px] text-[3vw] text-[#fff] flex items-center justify-center">特</div>
+                            <p class="text-[#666] text-[3vw] ml-[2vw]">特价商品5元起</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <footer class="h-[14vw] fixed left-0 bottom-0 w-full border-t border-[#ddd] bg-white">
+        <ul class="flex w-full justify-around text-[#999999] text-[2.8vw] items-center text-center h-full">
+            <li onclick="location.href='index.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsOtherHouses.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>首页</p>
+            </li>
+            <li class="align-middle h-2/3">
+                <img src="../img/IonMdCompass.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>发现</p>
+            </li>
+            <li onclick="location.href='orderList.html'" class="align-middle h-2/3">
+                <img src="../img/BasilDocumentSolid.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>订单</p>
+            </li>
+            <li onclick="location.href='login.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsPerson.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>我的</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线支付</title>
+    <link href="/dist/normalize.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="../js/orderList.js"></script>
+</head>
+<body class="font-wr">
+    <!-- header -->
+    <header>
+        <div class="w-full h-[12vw] bg-[#0097ff] text-[#fff] text-[4.8vw] fixed left-0 top-0 z-[1000] flex items-center justify-center">
+            <p>在线支付</p>
+        </div>
+    </header>
+    <!-- order-info -->
+    <h3 class="mt-[12vw] box-border pt-[4vw] px-[4vw] text-[4vw] text-[#999] font-light">订单信息：</h3>
+    <div class="box-border p-[4vw] text-[4vw] text-[#666] flex justify-between items-center">
+        <div class="flex items-center dropdownToggle">
+            <p>万家饺子（软件园E18店）</p>
+            <img src="../img/IonMdArrowDropdown.svg" class="invert-[.32] saturate-[1] hue-rotate-[163deg] brightness-[.93] contrast-[.81] h-[5vw]">
+        </div>
+        <p class="text-[#ff4500]">&#165;49</p>
+    </div>
+    <ul class="orderDetailDropdown w-full">
+        <li class="w-full box-border px-[4vw] py-[1vw] text-[#666] text-[3vw] flex justify-between items-center">
+            <p>纯肉鲜肉（水饺） x 2</p>
+            <p>&#165;15</p>
+        </li>
+        <li class="w-full box-border px-[4vw] py-[1vw] text-[#666] text-[3vw] flex justify-between items-center">
+            <p>玉米鲜肉（水饺） x 1</p>
+            <p>&#165;16</p>
+        </li>
+        <li class="w-full box-border px-[4vw] py-[1vw] text-[#666] text-[3vw] flex justify-between items-center">
+            <p>配送费</p>
+            <p>&#165;3</p>
+        </li>
+    </ul>
+    <!-- payment-type -->
+    <ul class="w-full">
+        <li class="w-full box-border p-[4vw] flex justify-between items-center">
+            <img src="../img/alipay.png">
+            <div class="bg-[#38CA73] rounded-full h-[5vw] w-[5vw]">
+                <img src="../img/MaterialSymbolsCheckSmall.svg" class="brightness-0 saturate-100 invert sepia saturate-0 hue-rotate-[303deg] brightness-[1.03] contrast-[1.01]">
+            </div>
+        </li>
+        <li class="w-full box-border p-[4vw] flex justify-between items-center">
+            <img src="../img/wechat.png">
+        </li>
+    </ul>
+    <!-- payment-button -->
+    <div class="w-full box-border p-[4vw]">
+        <button class="w-full h-[10vw] border-none outline-none rounded-[4px] bg-[#38CA73] text-[#fff]">确认支付</button>
+    </div>
+    <!-- footer -->
+    <footer class="h-[14vw] fixed left-0 bottom-0 w-full border-t border-[#ddd] bg-white">
+        <ul class="flex w-full justify-around text-[#999999] text-[2.8vw] items-center text-center h-full">
+            <li onclick="location.href='index.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsOtherHouses.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>首页</p>
+            </li>
+            <li class="align-middle h-2/3">
+                <img src="../img/IonMdCompass.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>发现</p>
+            </li>
+            <li onclick="location.href='orderList.html'" class="align-middle h-2/3">
+                <img src="../img/BasilDocumentSolid.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>订单</p>
+            </li>
+            <li onclick="location.href='login.html'" class="align-middle h-2/3">
+                <img src="../img/MaterialSymbolsPerson.svg" class="invert-[.71] saturate-[.60] hue-rotate-[143deg] brightness-[.87] contrast-[.83] h-3/5 m-auto">
+                <p>我的</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

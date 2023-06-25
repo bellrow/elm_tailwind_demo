@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .font-songti{
+        font-family: "宋体";
+    }
+
+    .bg-indexbanner {
+        background-image: url(../img/index_banner.png);
+    }
+    .font-wr{
+      font-family: "微软雅黑";
+    }
+  }
